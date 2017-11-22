@@ -52059,8 +52059,8 @@ var Album = function (_Component) {
             onClick: onClick,
             style: { backgroundImage: 'url("' + album.get('artworkUrl100') + '")' } },
           !album.get('favorite') ? _react2.default.createElement('img', { className: _Album2.default.favoriteIcon,
-            src: './favorite.png' }) : _react2.default.createElement('img', { className: _Album2.default.favorite,
-            src: './favorite.png' })
+            src: 'favorite.png' }) : _react2.default.createElement('img', { className: _Album2.default.favorite,
+            src: 'favorite.png' })
         ),
         _react2.default.createElement(
           'span',
